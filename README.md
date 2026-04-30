@@ -1,16 +1,107 @@
-# React + Vite
+# 🎉 Event Management System (React.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+A UI-focused Event Management System built using React.js. This project allows users to explore events, view detailed information, check schedules via a calendar, and log in to access a personalized dashboard and profile.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🏠 Home Page
+* 📅 Events Page (Upcoming & Past Filtering)
+* 🔍 Event Details (Dynamic Routing using useParams)
+* 🗓 Calendar (Month / Week / Day views using Nested Routing)
+* 🔐 Login System (Static Authentication)
+* 👤 Dashboard & Profile Page
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Concepts Used
+
+* React Functional Components
+* React Hooks (`useState`, `useParams`, `useNavigate`)
+* Props Drilling
+* Conditional Rendering
+* Array Filtering & Mapping
+* Nested Routing (React Router DOM)
+
+---
+
+## 🛠 Tech Stack
+
+* React.js
+* React Router DOM
+* Bootstrap
+* JavaScript (ES6)
+
+---
+
+## 📸 Screenshots
+
+### 🖥 Desktop View
+
+#### Home Page
+
+![Home](screenshots/home-desktop.png)
+
+#### Events Page
+
+![Events](screenshots/events-desktop.png)
+
+#### Event Details
+
+![Details](screenshots/event-details-desktop.png)
+
+#### Calendar
+
+![Calendar](screenshots/calendar-desktop.png)
+
+#### Login
+
+![Login](screenshots/login-desktop.png)
+
+#### Dashboard
+
+![Dashboard](screenshots/dashboard-desktop.png)
+
+#### Profile
+
+![Profile](screenshots/profile-desktop.png)
+
+---
+
+### 📱 Mobile View
+
+#### Home
+
+![Home Mobile](screenshots/home-mobile.png)
+
+#### Events
+
+![Events Mobile](screenshots/events-mobile.png)
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 📌 Future Improvements
+
+* Add backend (Node.js + MongoDB)
+* Replace static login with real authentication
+* Use Context API to avoid props drilling
+* Add event booking functionality
+
+---
+
+## 👨‍💻 Author
+
+Ashutosh
+GitHub: https://github.com/coded-by-ashutosh
