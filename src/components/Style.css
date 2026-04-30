@@ -1,0 +1,379 @@
+/* =========================
+   1. General / Reset
+========================= */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+main {
+  flex: 1;
+  /* Ensure main content takes available space */
+}
+
+
+/* =========================
+   2. Navbar & Header
+========================= */
+
+/* Navbar base */
+.navbar {
+  background-color: #0d1b2a !important;
+}
+
+/* Navbar brand (logo text) */
+.navbar-brand {
+  color: #ffb703 !important;
+  font-size: 28px;
+}
+
+.navbar-brand svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  color: #e0e1dd !important;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #ffb703 !important;
+}
+
+/* Navbar toggler button */
+.navbar-toggler {
+  background-color: #0d1b2a;
+  border-color: whitesmoke;
+}
+
+/* Header top icons */
+.icons a {
+  color: whitesmoke;
+}
+
+/* Dropdown menus */
+.dropdown-menu {
+  background-color: #0d1b2a;
+}
+
+.dropdown-menu a {
+  color: #e0e1dd;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ffb703;
+  color: #0d1b2a;
+}
+
+/* =========================
+   3. Hero Section
+========================= */
+.hero {
+  height: 80vh;
+  background: url("https://images.unsplash.com/photo-1656283384093-1e227e621fad?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29uY2VydCUyMGNyb3dkfGVufDB8fDB8fHww&ixlib=rb-4.1.0&q=60&w=3000") no-repeat center center/cover;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+
+.hero .btn {
+  background-color: #ffb703;
+  color: #0d1b2a;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 12px;
+  text-shadow: none;
+}
+
+/* =========================
+   4. Cards / Custom Cards
+========================= */
+.card,
+.custom-card {
+  background-color: #0d1b2a;
+  border-radius: 15px;
+  overflow: hidden;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover,
+.custom-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  padding: 10px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.card .btn,
+.custom-card .btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 18px;
+  border: none;
+}
+
+.card-body {
+  background-color: #0d1b2a;
+  color: white;
+}
+
+/* .view-events .btn{
+ background-color: #ffb703;
+  color: #0d1b2a;
+  border: none;
+  font-size: 20px;
+  font-weight: 410;
+  border-radius: 12px;
+  text-shadow: none;
+  
+} */
+
+/* =========================
+   5. Quick Links / Buttons
+========================= */
+.quick-link {
+  background: #0d1b2a;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.quick-link:hover {
+  background: #ffb703;
+  color: #0d1b2a;
+  transform: translateY(-5px);
+}
+
+/* =========================
+   6. About Section
+========================= */
+.about-content1 p {
+  font-size: 20.7px;
+}
+
+.about-content2 p,
+.about-content3 p {
+  color: black;
+  font-size: 20px;
+}
+
+.about .btn {
+  background-color: #ffb703;
+  color: #0d1b2a;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 12px;
+  text-shadow: none;
+}
+
+/* =========================
+   7. Footer
+========================= */
+.footer {
+  background-color: #0d1b2a;
+  color: #e0e1dd;
+}
+
+.footer h4,
+.footer h5 {
+  font-weight: 600;
+}
+
+.footer-link {
+  color: #e0e1dd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ffb703;
+}
+
+.footer-icon {
+  color: #e0e1dd;
+  font-size: 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #ffb703;
+  transform: translateY(-5px);
+}
+
+/* Events */
+
+.events h1{
+  color: #0d1b2a;
+}
+
+.events p{
+  color: #0d1b2a;
+  font-size: 21px;
+  font-weight: 350;
+}
+
+.up-coming-events p{
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.up-coming-events .card-text{
+  color: white;
+}
+
+.past-events p{
+  font-size: 18px;
+}
+
+.past-events .card-body{
+  color: white;
+  font-size: 20px;
+}
+
+.past-events .btn{
+  background-color:  #ffb703;
+  color: #0d1b2a;
+}
+
+
+/* Calendar-view */
+
+/* Calendar buttons - clean and simple */
+.calendar-btn {
+  padding: 8px 18px;
+  border: 2px solid #0d1b2a; /* Bootstrap blue */
+  color: whitesmoke;
+  background-color: #0d1b2a;
+  border-radius: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.calendar h1 {
+  color: black;
+}
+/* .calendar-btn:hover {
+  background-color: #0d1b2a;
+  color: #ffb703;
+  border: none;
+} */
+
+/* Active tab - Yellow background, Blue text */
+.active-tab {
+  background-color: #0d6efd;
+  color: whitesmoke;
+  border-color: #0d6efd;
+}
+
+.calendar-link {
+  gap: 200px;
+}
+
+.list-group-item {
+  border-color: black;
+  border-width: 1px;
+  background-color: rgba(236, 236, 226, 0.842);
+}
+
+
+/* Page-noy-Found */
+
+/* .fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+.list-group-item {
+  border-color: black;
+  border-width: 1px;
+  background-color: rgba(228, 228, 228, 0.842);
+}
+
+
+/* Page-noy-Found */
+
+/* .fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+.dashboard .btn {
+  background-color: #ffb703;
+  color: #0d1b2a;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 12px;
+  text-shadow: none;
+}
