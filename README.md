@@ -49,9 +49,6 @@ A UI-focused Event Management System built using React.js. This project allows u
 
 ![Events](screenshots/events-desktop.png)
 
-#### Event Details
-
-![Details](screenshots/event-details-desktop.png)
 
 #### Calendar
 
